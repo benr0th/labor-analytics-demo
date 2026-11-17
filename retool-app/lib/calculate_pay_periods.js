@@ -21,31 +21,3 @@ for (const range of ranges) {
 }
 
 return date_ranges;
-
-/* DEMO VERSION - Shows only pay periods that work for the demo, since the database is based from a snapshot
-const DAY = 864e5;
-const base = Date.UTC(2026, 1, 20);
-const cap  = Date.UTC(2026, 5, 30);    // upper limit: June 30, 2026
-
-const today = new Date();
-const todayUTC = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
-
-// next period boundary after today (original behavior)
-const nextBoundary = base + (Math.floor((todayUTC - base) / DAY / 14) + 1) * 14 * DAY;
-// last period boundary on or before the cap
-const lastAllowed = base + Math.floor((cap - base) / DAY / 14) * 14 * DAY;
-
-const anchor = Math.min(nextBoundary, lastAllowed);
-const periodsBack = Math.round((anchor - base) / (14 * DAY));
-
-const fmt = ms => {
-  const d = new Date(ms);
-  return `${d.getUTCMonth() + 1}/${d.getUTCDate()}/${d.getUTCFullYear()}`;
-};
-
-const date_ranges = Array.from({ length: periodsBack + 1 }, (_, i) =>
-  `${fmt(anchor - (i * 14 + 13) * DAY)}-${fmt(anchor - i * 14 * DAY)}`
-);
-
-return date_ranges;
-*/
