@@ -1,0 +1,1 @@
+return (({{ bonus_goal.value }}*{{ total_junk_rev_stat.value }}) - {{ total_junk_labor_stat.value }})

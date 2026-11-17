@@ -1,0 +1,22 @@
+._main-frame-scroll-container_3uo2l_64 {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+/* [id*="Table"] > [class*="_content_"] [class*="_outer_"] [class*="_grid_"] [class*="_main_"] {
+  button:has(svg[data-testid="Icon::bold/interface-remove-circle"]) {
+    background: {{ theme.automatic[4] }};
+    outline: 1px ridge {{ theme.surfacePrimary }};
+    svg[data-testid="Icon::bold/interface-remove-circle"] {
+      fill: {{ theme.primary }};
+    }
+  }
+} */
+
+svg[data-testid='Icon::bold/interface-remove-circle'] {
+  color: {{ showOnlyDiscrepancies.value ? '#3170F9' : '#000'}}
+}
+
+svg[data-testid='Icon::bold/interface-user-single'] {
+  color: {{ compareAgainstCaptain.value ? '#3170F9' : '#000'}}
+}

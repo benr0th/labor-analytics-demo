@@ -1,0 +1,1 @@
+select * from deduction_reasons;

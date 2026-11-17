@@ -1,0 +1,1 @@
+tips_select_pay_period.setValue(tips_select_pay_period.data.find(d => d.includes(start)))

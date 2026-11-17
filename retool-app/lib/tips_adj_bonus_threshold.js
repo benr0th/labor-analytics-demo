@@ -1,0 +1,1 @@
+return tips_adj_bonus_threshold.value > 0 ? (( {{ tips_bonus_goal.value }}*{{ tips_junk_total_rev.value }}) - {{ tips_junk_total_labor.value }}) : 0

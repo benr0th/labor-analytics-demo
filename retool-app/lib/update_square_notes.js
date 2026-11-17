@@ -1,0 +1,1 @@
+return {{ _.map(Object.values(square_table.changesetObject), v => v.notes ? v.notes : null) }};

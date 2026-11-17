@@ -1,0 +1,1 @@
+return moment.utc(new Date(val)).endOf('day').toDate();

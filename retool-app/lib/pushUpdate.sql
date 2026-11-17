@@ -1,0 +1,1 @@
+update app_version set version = now()::text where id = 'ch-retool';

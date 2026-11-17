@@ -1,0 +1,1 @@
+select * from totals_by_captain_by_day;

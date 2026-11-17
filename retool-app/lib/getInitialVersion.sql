@@ -1,0 +1,1 @@
+select version from app_version where id = 'ch-retool'

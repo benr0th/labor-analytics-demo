@@ -1,0 +1,805 @@
+{
+  "TotalsBy_container": {
+    "row": 8.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "alert3": {
+    "row": 2.6,
+    "col": 4,
+    "height": 1
+  },
+  "all_time_labor_show_junk": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "all_time_labor_show_move": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "bonus_goal": {
+    "row": 8.4,
+    "height": 0.2,
+    "width": 2
+  },
+  "captain_graph_date_range": {
+    "subcontainer": "captain_graph_modal",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4
+  },
+  "captain_graph_include_commissions": {
+    "container": "captain_graph_options_container",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "captain_graph_include_commissions2": {
+    "container": "captain_graph_options_container2",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "captain_graph_include_out_of_state": {
+    "container": "captain_graph_options_container",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "captain_graph_include_out_of_state2": {
+    "container": "captain_graph_options_container2",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "captain_graph_include_utility": {
+    "container": "captain_graph_options_container",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "captain_graph_include_utility2": {
+    "container": "captain_graph_options_container2",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "captain_graph_options_container": {
+    "subcontainer": "captain_graph_modal",
+    "row": 0,
+    "col": 7,
+    "height": 1,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "captain_graph_options_container2": {
+    "subcontainer": "captain_total_labor_graph_modal",
+    "height": 1,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "captain_modal_chart": {
+    "subcontainer": "captain_graph_modal",
+    "row": 1,
+    "height": 7.6,
+    "width": 12
+  },
+  "captain_modal_title": {
+    "rowGroup": "header",
+    "subcontainer": "captain_graph_modal",
+    "height": 0.6,
+    "width": 9
+  },
+  "captain_total_labor_modal_chart": {
+    "subcontainer": "captain_total_labor_graph_modal",
+    "row": 1.6,
+    "height": 10.2,
+    "width": 12
+  },
+  "captain_total_labor_pct_graph_btn": {
+    "row": 7.4,
+    "col": 9,
+    "height": 0.8
+  },
+  "container1": {
+    "subcontainer": "captain_total_labor_graph_modal",
+    "col": 5,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle1": {
+    "container": "options_container",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle2": {
+    "container": "overall_graph_options_container",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle3": {
+    "container": "captain_graph_options_container",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle4": {
+    "container": "captain_graph_options_container2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle5": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "custom_date_range": {
+    "row": 1,
+    "col": 7,
+    "height": 0.2
+  },
+  "discrepancies_body": {
+    "container": "discrepancies_container",
+    "subcontainer": "00030",
+    "col": 1,
+    "height": 0.6,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "discrepancies_container": {
+    "row": 5.4,
+    "col": 4,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "discrepancies_icon": {
+    "container": "discrepancies_container",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "discrepancies_link": {
+    "container": "discrepancies_container",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 1,
+    "height": 0.6,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "discrepancies_title": {
+    "container": "discrepancies_container",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "divider1": {
+    "row": 2.8,
+    "col": 1,
+    "height": 0.2,
+    "width": 10
+  },
+  "divider2": {
+    "row": 0.8,
+    "height": 0.2,
+    "width": 12
+  },
+  "hunkware_rev": {
+    "row": 66.8,
+    "col": 1,
+    "height": 11.2,
+    "width": 8
+  },
+  "icon1": {
+    "row": 1.8,
+    "col": 3,
+    "height": 0.6,
+    "width": 1
+  },
+  "include_commissions": {
+    "container": "options_container",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "include_out_of_state": {
+    "container": "options_container",
+    "subcontainer": "00030",
+    "row": 0,
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "include_utility": {
+    "container": "options_container",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "junk_commissions": {
+    "row": 9.2,
+    "height": 1,
+    "width": 6
+  },
+  "junk_labor_goal": {
+    "row": 3.8,
+    "height": 0.2,
+    "width": 2
+  },
+  "laborPctByCrewSize_table": {
+    "row": 99.8,
+    "height": 1,
+    "width": 7
+  },
+  "labor_data": {
+    "row": 56.6,
+    "col": 1,
+    "height": 10.2,
+    "width": 10
+  },
+  "labor_goals_text": {
+    "row": 3,
+    "height": 1
+  },
+  "labor_graph_button": {
+    "row": 5.4,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "missing_captains_table": {
+    "subcontainer": "discrepancies_modal",
+    "row": 3.8,
+    "height": 1,
+    "width": 12
+  },
+  "missing_connecteam_clock_ins": {
+    "subcontainer": "discrepancies_modal",
+    "row": 9,
+    "height": 1,
+    "width": 4
+  },
+  "missing_connecteam_shift_layers": {
+    "subcontainer": "discrepancies_modal",
+    "row": 7,
+    "height": 1,
+    "width": 6
+  },
+  "missing_connecteam_shifts": {
+    "subcontainer": "discrepancies_modal",
+    "row": 5.4,
+    "height": 1,
+    "width": 6
+  },
+  "missing_shifts_explain_text": {
+    "subcontainer": "discrepancies_modal",
+    "row": 4.8,
+    "col": 3,
+    "height": 0.6,
+    "width": 7
+  },
+  "missing_shifts_number_text": {
+    "subcontainer": "discrepancies_modal",
+    "row": 4.8,
+    "height": 0.6
+  },
+  "missing_shifts_text": {
+    "subcontainer": "discrepancies_modal",
+    "row": 5.4,
+    "col": 7,
+    "height": 0.6,
+    "width": 4
+  },
+  "modalCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "captain_graph_modal",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton2": {
+    "rowGroup": "header",
+    "subcontainer": "discrepancies_modal",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton3": {
+    "rowGroup": "header",
+    "subcontainer": "overall_graph_modal",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton4": {
+    "rowGroup": "header",
+    "subcontainer": "captain_total_labor_graph_modal",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton5": {
+    "rowGroup": "header",
+    "subcontainer": "tutorial",
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "captain_total_labor_graph_modal",
+    "height": 0.6,
+    "width": 9
+  },
+  "modalTitle2": {
+    "rowGroup": "header",
+    "subcontainer": "tutorial",
+    "height": 0.6,
+    "width": 9
+  },
+  "move_labor_goal": {
+    "row": 3.6,
+    "height": 0.2,
+    "width": 2
+  },
+  "navigation3": {
+    "height": 0.8,
+    "width": 12
+  },
+  "no_graph_data_text": {
+    "subcontainer": "captain_graph_modal",
+    "row": 8.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "options_container": {
+    "row": 4,
+    "height": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "overall_graph_date_range": {
+    "subcontainer": "overall_graph_modal",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4
+  },
+  "overall_graph_include_commissions": {
+    "container": "overall_graph_options_container",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "overall_graph_include_out_of_state": {
+    "container": "overall_graph_options_container",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "overall_graph_include_utility": {
+    "container": "overall_graph_options_container",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "overall_graph_modal_title": {
+    "rowGroup": "header",
+    "subcontainer": "overall_graph_modal",
+    "height": 0.6,
+    "width": 9
+  },
+  "overall_graph_options_container": {
+    "subcontainer": "overall_graph_modal",
+    "row": 0,
+    "col": 7,
+    "height": 1,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "overall_modal_chart": {
+    "subcontainer": "overall_graph_modal",
+    "row": 1,
+    "height": 7.6,
+    "width": 12
+  },
+  "sales_office_labor": {
+    "row": 55.6,
+    "col": 6,
+    "height": 1,
+    "width": 6
+  },
+  "select_pay_period": {
+    "row": 1,
+    "height": 0.2
+  },
+  "shift_discrepanciesTable": {
+    "row": 86.6,
+    "height": 12.6,
+    "width": 11
+  },
+  "tabs1": {
+    "container": "TotalsBy_container",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "text1": {
+    "row": 5,
+    "height": 0.6
+  },
+  "text10": {
+    "subcontainer": "discrepancies_modal",
+    "height": 0.6,
+    "width": 12
+  },
+  "text11": {
+    "row": 86,
+    "height": 0.6
+  },
+  "text12": {
+    "subcontainer": "discrepancies_modal",
+    "row": 1.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text13": {
+    "subcontainer": "captain_total_labor_graph_modal",
+    "row": 1,
+    "col": 4,
+    "height": 0.6,
+    "width": 4
+  },
+  "text15": {
+    "subcontainer": "discrepancies_modal",
+    "row": 8,
+    "height": 1
+  },
+  "text17": {
+    "subcontainer": "discrepancies_modal",
+    "row": 8,
+    "col": 3,
+    "height": 0.6,
+    "width": 9
+  },
+  "text18": {
+    "subcontainer": "discrepancies_modal",
+    "row": 6.4,
+    "height": 0.6,
+    "width": 4
+  },
+  "text2": {
+    "row": 7.4,
+    "height": 0.6
+  },
+  "text20": {
+    "row": 99.2,
+    "height": 0.6
+  },
+  "text21": {
+    "subcontainer": "tutorial",
+    "height": 0.6,
+    "width": 12
+  },
+  "text3": {
+    "row": 8.6,
+    "height": 0.6
+  },
+  "text8": {
+    "row": 55,
+    "col": 6,
+    "height": 0.6
+  },
+  "text9": {
+    "subcontainer": "discrepancies_modal",
+    "row": 3.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "total_junk_labor_pct_stat": {
+    "row": 3.8,
+    "col": 10,
+    "height": 0.8,
+    "width": 2
+  },
+  "total_junk_labor_stat": {
+    "row": 3.8,
+    "col": 4,
+    "height": 0.8
+  },
+  "total_junk_rev_stat": {
+    "row": 3.8,
+    "col": 7,
+    "height": 0.8
+  },
+  "total_move_labor_pct_stat": {
+    "row": 3,
+    "col": 10,
+    "height": 0.8,
+    "width": 2
+  },
+  "total_move_labor_stat": {
+    "row": 3,
+    "col": 4,
+    "height": 0.8
+  },
+  "total_move_rev_stat": {
+    "row": 3,
+    "col": 7,
+    "height": 0.8
+  },
+  "total_overall_labor_pct_stat": {
+    "row": 4.6,
+    "col": 10,
+    "height": 0.8,
+    "width": 2
+  },
+  "total_overall_labor_stat": {
+    "row": 4.6,
+    "col": 4,
+    "height": 0.8
+  },
+  "total_overall_rev_stat": {
+    "row": 4.6,
+    "col": 7,
+    "height": 0.8
+  },
+  "totalsByWingmen_table": {
+    "container": "TotalsBy_container",
+    "subcontainer": "00031",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "totals_by_captain": {
+    "container": "TotalsBy_container",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "totals_by_captain_by_date": {
+    "row": 78,
+    "col": 2,
+    "height": 8,
+    "width": 8
+  },
+  "totals_by_day": {
+    "row": 6.4,
+    "height": 1,
+    "width": 12
+  },
+  "unassigned_captains_in_labor_table": {
+    "subcontainer": "discrepancies_modal",
+    "row": 2.2,
+    "height": 1,
+    "width": 12
+  },
+  "unmatched_hunkware_ids_table": {
+    "subcontainer": "discrepancies_modal",
+    "row": 0.6,
+    "height": 1,
+    "width": 12
+  },
+  "upload_csv": {
+    "row": 1.6,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "use_custom_date_range": {
+    "row": 1.8,
+    "col": 4,
+    "height": 0.6
+  }
+}

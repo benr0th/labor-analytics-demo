@@ -1,0 +1,1 @@
+select * from hunkware_rev where grand_total_numeric > 0;

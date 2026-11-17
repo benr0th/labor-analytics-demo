@@ -1,0 +1,36 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "c4048834-c747-11f1-8132-b30fd8a43640",
+  "appTemplate": {
+    "pubAppDecoupledQueriesDisabled": true,
+    "pageCodeFolders": {
+      "object": {
+        "labor_percentage": {
+          "array": [
+            "vars",
+            "supabase_queries",
+            "setters",
+            "getters",
+            "transformers",
+            "js_functions",
+            "supabase_toggles"
+          ]
+        },
+        "tips_and_commissions": {
+          "array": [
+            "vars",
+            "supabase_queries",
+            "getters",
+            "setters",
+            "js_functions",
+            "transformers"
+          ]
+        }
+      }
+    },
+    "queryStatusVisibility": true,
+    "rootScreen": "labor_percentage",
+    "version": "4.98.0"
+  }
+}

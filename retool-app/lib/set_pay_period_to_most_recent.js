@@ -1,0 +1,1 @@
+select_pay_period.setValue(select_pay_period.data.find(d => d.includes(start)))

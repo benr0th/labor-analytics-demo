@@ -1,0 +1,1 @@
+return {{ _.map(Object.keys(square_table.changesetObject), k => _.toNumber(k) + 1) }};

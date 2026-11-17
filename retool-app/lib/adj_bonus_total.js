@@ -1,0 +1,1 @@
+return _.sumBy({{ junk_commissions.data }}, r => _.toNumber(r.adjusted_bonus))
