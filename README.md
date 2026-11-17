@@ -25,31 +25,39 @@ Revenue API┘     (fetch + normalize)       (schema)      (reports, checks, cha
 ## Screenshots
 
 ### Labor percentage dashboard
+
 Pay-period totals, change from the previous period, daily breakdown with color-coded flags against targets, and the discrepancy checker.
 
 ![Labor percentage dashboard](screenshots/labor-percentage.png)
 
 ### Labor % over time
+
 ![Labor percentage over time](screenshots/labor-over-time.png)
 
 ### Crew lead all-time labor % vs. goal
+
 ![Crew lead labor percentage chart](screenshots/crew-lead-labor-chart.png)
 
+### Discrepancies showing mismatched data
+
+![Discrepancies](screenshots/discrepancies.png)
+
 ### Tips and commissions
+
 ![Tips and commissions](screenshots/tips-and-commissions.png)
 
 ## Code
 
 The [`retool-app/`](retool-app/) folder holds the app's source, exported in Retool's Toolscript (source-control) format. Queries and logic live in `lib/`, and page and modal layouts live in `src/`. Some highlights:
 
-| File | What it does |
-|---|---|
-| [`lib/getTotalLabor.js`](retool-app/lib/getTotalLabor.js) | Totals labor for a pay period or custom date range, applying the out-of-state, utility and commission filters, and compares against the previous period |
-| [`lib/getUnmatchedHunkwareIDs.sql`](retool-app/lib/getUnmatchedHunkwareIDs.sql) | Finds labor records whose job IDs don't match the revenue system, splitting multi-ID fields with regex before matching |
-| [`lib/get_connecteam_timesheet_discrepancies.js`](retool-app/lib/get_connecteam_timesheet_discrepancies.js) | Cross-checks Connecteam timesheets against scheduled shifts to find unscheduled clock-ins and scheduled shifts with no clock-in |
-| [`lib/getShiftTimeDiscrepancies.sql`](retool-app/lib/getShiftTimeDiscrepancies.sql) | Flags crew members whose clock-in or clock-out differs by more than 15 minutes from their crew's median time or from their crew lead |
-| [`lib/laborPctByCrewSize.sql`](retool-app/lib/laborPctByCrewSize.sql) | Labor percentage broken down by crew size |
-| [`lib/calculate_pay_periods.js`](retool-app/lib/calculate_pay_periods.js) | Builds the list of pay periods used throughout the app |
+| File                                                                                                        | What it does                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`lib/getTotalLabor.js`](retool-app/lib/getTotalLabor.js)                                                   | Totals labor for a pay period or custom date range, applying the out-of-state, utility and commission filters, and compares against the previous period |
+| [`lib/getUnmatchedHunkwareIDs.sql`](retool-app/lib/getUnmatchedHunkwareIDs.sql)                             | Finds labor records whose job IDs don't match the revenue system, splitting multi-ID fields with regex before matching                                  |
+| [`lib/get_connecteam_timesheet_discrepancies.js`](retool-app/lib/get_connecteam_timesheet_discrepancies.js) | Cross-checks Connecteam timesheets against scheduled shifts to find unscheduled clock-ins and scheduled shifts with no clock-in                         |
+| [`lib/getShiftTimeDiscrepancies.sql`](retool-app/lib/getShiftTimeDiscrepancies.sql)                         | Flags crew members whose clock-in or clock-out differs by more than 15 minutes from their crew's median time or from their crew lead                    |
+| [`lib/laborPctByCrewSize.sql`](retool-app/lib/laborPctByCrewSize.sql)                                       | Labor percentage broken down by crew size                                                                                                               |
+| [`lib/calculate_pay_periods.js`](retool-app/lib/calculate_pay_periods.js)                                   | Builds the list of pay periods used throughout the app                                                                                                  |
 
 Credentials and database connections live in Retool and Supabase and are not part of this export.
 
